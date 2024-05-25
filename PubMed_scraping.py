@@ -6,8 +6,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-#from googletrans import Translator
-
 
 def pubmed_scraping():
     #pubmed検索結果：guidewire CTO coronary intervention 5years
@@ -19,12 +17,6 @@ def pubmed_scraping():
 
     #変数d_listに空のリストを作成する
     d_list = []
-
-    #Chromeのオプションを設定する
-    #options = Options()
-    #options.headless = True  # ヘッドレスモードを有効にする
-    #options.add_argument('--disable-gpu')  # GPUを使用しない
-    #options.add_argument('--no-sandbox')  # サンドボックスモードを無効にする
 
     #webdriverを起動
     driver = webdriver.Chrome()
@@ -108,16 +100,6 @@ def pubmed_scraping():
 
     #データをDataFrameに変換
     df = pd.DataFrame(d_list)
-
-    '''#エクセルの最終行を取得
-    lastrow = len(df)
-
-    #abstractの和訳追加
-    trans = Translator()
-    for i in range(0,lastrow):
-        abstract_en = df.iloc[i, 2]
-        abstract_JP = trans.translate(abstract_en, src='en', dest='ja')
-        df.at[i, 'Abstract(JP)'] = abstract_JP.text'''
 
     #DataFrameをExcelに出力
     with pd.ExcelWriter(outputFileName, engine='openpyxl') as writer:
