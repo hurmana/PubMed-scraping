@@ -39,9 +39,6 @@ PubMedで「guidewire CTO coronary intervention 5years」での検索結果の10
 
 ### スクレイピング中
 - ブラウザ自動操作画面：https://gyazo.com/4bb2251846518720003da739c39f6273
-- ターミナル
+- ターミナル  
   ![image](https://github.com/hurmana/PubMed-scraping/assets/170585900/d5452379-d145-4f64-bd2b-3e22504b841c)
 
-
-
-### 新しく追加された論文がない場合
