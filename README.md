@@ -42,3 +42,6 @@ PubMedで「guidewire CTO coronary intervention 5years」での検索結果の10
 - ターミナル  
   ![image](https://github.com/hurmana/PubMed-scraping/assets/170585900/d5452379-d145-4f64-bd2b-3e22504b841c)
 
+## 備考
+Java及びPython初学者で、スクレイピング等について本やネットで調べながら作製したため、約1ヵ月かかりました。
+
