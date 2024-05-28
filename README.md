@@ -1,10 +1,11 @@
 # PubMed論文検索結果スクレイピング
-PubMedで「guidewire CTO coronary intervention 5years」での検索結果の10ページ分をスクレイピングし、  
-エクセルに論文リストとして出力するPythonサンプルコード  
-スクレイピング学習のために作成  
+プログラミング言語「Python」を使用して、医学論文検索サイトPubMedでの検索結果を  
+Excelに自動抽出するサンプルコード。  
+スクレイピング学習のために作成。
 
 ## 概要
 ### スクレイピング
+- 検索条件：guidewire CTO coronary intervention 5years
 - 取得情報：各論文のTitle、Authors、Abstract、Journal、Publish date & page、Publication type、Citation doi、URL 
 - 出力形式：エクセル（ファイル名：年-月-日.xlsx）
 
