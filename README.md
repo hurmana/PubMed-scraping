@@ -33,10 +33,11 @@ Python/スクレイピング学習のために作成。
 ## 画面サンプル
 ### 出力結果例
 - スクレイピング結果（ファイル名の例：2024-05-23.xlsx）
-![image](https://github.com/hurmana/PubMed-scraping/assets/170585900/01d95297-46c5-4d02-9699-f592da0c1b62)
+  <img width="627" alt="image" src="https://github.com/hurmana/PubMed-scraping/assets/170585900/3f5d4944-9278-4b8b-8d4e-c01be87e8e18">
 
 - 論文リスト：新たな論文をlistタブに追加するとともに、新たな論文を別タブに表示
-  ![image](https://github.com/hurmana/PubMed-scraping/assets/170585900/a71bb0e6-ece1-4c69-b89d-7b07cd31ec70)
+  <img width="620" alt="image" src="https://github.com/hurmana/PubMed-scraping/assets/170585900/16ecdbc9-29c5-4c15-9e44-045ad908ad6b">
+
 
 ### スクレイピング中
 - ブラウザ自動操作画面：https://gyazo.com/4bb2251846518720003da739c39f6273
