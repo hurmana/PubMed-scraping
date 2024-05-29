@@ -40,7 +40,7 @@ Python/スクレイピング学習のために作成。
 
 
 ### スクレイピング中
-- ブラウザ自動操作画面：https://gyazo.com/4bb2251846518720003da739c39f6273
+- ブラウザ自動操作中の動画：https://gyazo.com/4bb2251846518720003da739c39f6273
 - ターミナル  
   ![image](https://github.com/hurmana/PubMed-scraping/assets/170585900/d5452379-d145-4f64-bd2b-3e22504b841c)
 
